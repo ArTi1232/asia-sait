@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <style>
+        #header {
+           
+           height: 50px;
+            background-color: #25B33f;
+           margin-bottom: 10px;
+        }
+        #first {
+            background-color: yellow; 
+            height: 46px;
+        }
+        .parent {
+    width: 700px;
+    height: 300px;
+    border: 2px solid green;
+    display: flex;
+	align-items: center;
+    justify-content: center; 
+    
+}
+
+.block {
+    width: 50%;
+    
+    background-color: yellow;
+}
+
+.block2 {
+    width: 50%;
+   
+    background-color: red;
+
+}
+        p {
+            display: inline-block;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 15px 25px;
+            padding: 15px 20px;
+            font-size: 40px;
+            font-weight: bold;
+            font-family: 'Montserrat', sans-serif;
+            transition: 0.4s ease-in-out;
+        }
+        a {
+            display: inline-block;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 15px 25px;
+            padding: 15px 20px;
+            font-size: 40px;
+            font-weight: bold;
+            font-family: 'Montserrat', sans-serif;
+            transition: 0.4s ease-in-out;
+        }
+        .wrap {
+            width: 1310px; /*фиксируем ширину обертки*/
+            margin: 0 auto; /*центрируем ее*/
+           
+            height: 120px; /*Задаем высоту обертки*/
+        }
+        .bblock {
+            height: 100px;
+            float: left; /*Задаем обтекание*/
+            line-height: 30px; /*Высота строки + верт. центрирования текста*/
+            font-size: 30px;
+            background: dodgerblue;
+            color: black;
+            width: 423px; /*Фиксируем ширину блока*/
+            margin-right: 20px;
+            text-align: center; /*Центрируем текст по горизонтали*/
+            vertical-align: middle;
+        }
+
+        .bblock1 {
+            height: 150px;
+            float: right; /*Задаем обтекание*/
+            line-height: 50px; /*Высота строки + верт. центрирования текста*/
+            font-size: 40px;
+            background: dodgerblue;
+            color: white;
+            width: 396px; /*Фиксируем ширину блока*/
+            margin-left: 20px;
+            text-align: center; /*Центрируем текст по горизонтали*/
+            vertical-align: middle;
+           
+        }
+        .bblock2 {
+            height: 165px;
+            float: right; /*Задаем обтекание*/
+            line-height: 40px; /*Высота строки + верт. центрирования текста*/
+            font-size: 40px;
+            background: dodgerblue;
+            color: white;
+            width: 396px; /*Фиксируем ширину блока*/
+            margin-left: 20px;
+            text-align: center; /*Центрируем текст по горизонтали*/
+            vertical-align: middle;
+            margin-top: 8px;
+           
+        }
+        .bblock3 {
+            height: 165px;
+            float: right; /*Задаем обтекание*/
+            line-height: 40px; /*Высота строки + верт. центрирования текста*/
+            font-size: 40px;
+            background: dodgerblue;
+            color: white;
+            width: 812px; /*Фиксируем ширину блока*/
+            margin-left: 50px;
+            text-align: center; /*Центрируем текст по горизонтали*/
+            vertical-align: middle;
+            margin-top: 8px;
+        }
+        .wrap :last-child {
+            margin-right: 0px; /*Убираем поле последнего div-а*/
+        }
+
+       
+    </style>
+    <div id="header">
+
+        Участник конкурса "КРИТ-2023" Шарифуллин Ильмир приветствует жюри конкурса!
+        Название сайта:»История одного учителя»
+        (Самигуллина Асия Ахсяновна-учитель английского и немецкого языков МОБУ Каранская СОШ Буздякского района РБ)
+
+    </div>
+    <div class="wrap">
+        <div class="bblock1">
+            <a href="#section1">Учеба в вузе</a>
+
+
+        </div>
+
+
+        <div class="bblock1">
+            <a href="#section1">Учитель</a>
+        </div>
+        <div class="bblock1">
+            <a href="#section2">Об этом сайте</a>
+
+        </div>
+        <div class="bblock2">
+            <a href="#section3">Детство и школьные годы</a>
+
+        </div>
+        <div class="bblock2">
+            <a href="#section4">Классное руководство</a>
+
+        </div>
+        <div class="bblock2">
+            <a href="#section3">Работа в школе</a>
+
+        </div>
+
+
+
+        <div class="bblock">
+            <img height="560px" width="483px" src="сайт альбина апа/images/a.jpg">
+            <p>Самигуллина Асия Ахсяновна </p>
+
+
+        </div>
+        
+
+
+        
+        <div class="bblock2">
+            <a href="#section3">Семинары</a>
+
+        </div>
+        <div class="bblock2">
+            <a href="#section3">Участие в конкурсах</a>
+
+        </div>
+        <div class="bblock3">
+            <a href="#section3">Внештатный корреспондент «Буздякские новости»(о школьной жизни)</a>
+
+        </div>
+        <div class="bblock3">
+            <a href="#section3">Участие в жизни села(статьи о юбилярях)</a>
+
+        </div>
+        <div class="bblock3">
+            <a href="#section3">Отзывы учащихся и коллег</a>
+
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+</html>
